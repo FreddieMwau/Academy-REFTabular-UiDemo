@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "PgNK6akuauk6UnjaQ4/s9MdNaPej2zXlekLEWldroBp0UajDxgoAPo7dmRZwfrfCC6eTMKOKqgOuB8aPWaWQ5w==",
+  "dgSpecHash": "LN4GxOQzHToqRmIgVbBbcSXxZrgE+/JQrZ2EyZ7VsQl9CLsriw+5E6BCnTgG2TgxYTmpm+Cad5Mc2m9lLw/smw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Joking Genius\\Documents\\UiPath\\Tabular_Data\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\Joking Genius\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Joking Genius\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
+    "C:\\Users\\Joking Genius\\.nuget\\packages\\credentialmanagement.standard\\1.0.4\\credentialmanagement.standard.1.0.4.nupkg.sha512",
     "C:\\Users\\Joking Genius\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",
     "C:\\Users\\Joking Genius\\.nuget\\packages\\documentformat.openxml\\2.12.1\\documentformat.openxml.2.12.1.nupkg.sha512",
     "C:\\Users\\Joking Genius\\.nuget\\packages\\excelnumberformat\\1.0.10\\excelnumberformat.1.0.10.nupkg.sha512",
@@ -236,6 +237,7 @@
     "C:\\Users\\Joking Genius\\.nuget\\packages\\uipath\\24.10.93.21985\\uipath.24.10.93.21985.nupkg.sha512",
     "C:\\Users\\Joking Genius\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\uipath.activities.runtimegovernance.1.1.6.nupkg.sha512",
     "C:\\Users\\Joking Genius\\.nuget\\packages\\uipath.codedworkflows\\24.10.0\\uipath.codedworkflows.24.10.0.nupkg.sha512",
+    "C:\\Users\\Joking Genius\\.nuget\\packages\\uipath.credentials.activities\\2.0.0\\uipath.credentials.activities.2.0.0.nupkg.sha512",
     "C:\\Users\\Joking Genius\\.nuget\\packages\\uipath.emgucvbundle\\1.1.0\\uipath.emgucvbundle.1.1.0.nupkg.sha512",
     "C:\\Users\\Joking Genius\\.nuget\\packages\\uipath.excel.activities\\2.23.4\\uipath.excel.activities.2.23.4.nupkg.sha512",
     "C:\\Users\\Joking Genius\\.nuget\\packages\\uipath.imageprocessing\\23.4.0\\uipath.imageprocessing.23.4.0.nupkg.sha512",
