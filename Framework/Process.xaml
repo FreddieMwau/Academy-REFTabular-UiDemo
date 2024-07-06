@@ -103,6 +103,7 @@
       <Variable x:TypeArguments="x:Decimal" Name="dcl_OnUsCheck" />
       <Variable x:TypeArguments="x:Decimal" Name="dcl_NotOnUsCheck" />
       <Variable x:TypeArguments="x:String" Name="str_TransactionNumber" />
+      <Variable x:TypeArguments="x:Decimal" Name="dcl_TransactionSum" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -142,9 +143,6 @@
       </ui:MultipleAssign.AssignOperations>
     </ui:MultipleAssign>
     <Sequence sap2010:Annotation.AnnotationText="The sum of all 3 fields must be less than the threshold" DisplayName="Input Data Validation" sap:VirtualizedContainerService.HintSize="512,768.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_2">
-      <Sequence.Variables>
-        <Variable x:TypeArguments="x:Decimal" Name="dcl_TransactionSum" />
-      </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -188,7 +186,7 @@
         </If.Else>
       </If>
     </Sequence>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="UiDemo_AddTransaction - Invoke Workflow File (UiDemo\UiDemo_AddTransaction.xaml)" sap:VirtualizedContainerService.HintSize="512,200.66666666666666" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="UiDemo\UiDemo_AddTransaction.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="UiDemo_AddTransaction - Invoke Workflow File (UiDemo\UiDemo_AddTransaction.xaml)" sap:VirtualizedContainerService.HintSize="512,200.66666666666666" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" Level="{x:Null}" LogEntry="{x:Null}" LogExit="{x:Null}" Timeout="{x:Null}" UnSafe="False" WorkflowFileName="UiDemo\UiDemo_AddTransaction.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InArgument x:TypeArguments="x:Decimal" x:Key="in_CashIn">[dcl_CashIn]</InArgument>
         <InArgument x:TypeArguments="x:Decimal" x:Key="in_OnUsCheck">[dcl_OnUsCheck]</InArgument>

@@ -85,6 +85,13 @@
         "testCaseType": "TestCase",
         "executionTemplateType": "Local",
         "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "968a0253-8379-42db-91a5-378a674c6d70",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\UiDemo_OpenTestCase.xaml"
       }
     ],
     "saveToCloud": false
